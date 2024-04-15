@@ -1,0 +1,660 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    height: 80px;
+    box-shadow: 0px 14px 15px -3px rgba(0,0,0,0.1);
+}
+
+nav a{
+    display: flex;
+    text-decoration: none;
+}
+
+.img1{
+    width: 80px;
+}
+
+nav .enjoytext{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 12px;
+    color: black;
+    font-style: normal;
+}
+
+.aboutDiv{
+    margin-left: 400px;
+}
+
+.portfolioDiv,
+.contactUs{
+    margin-left: 50px;
+}
+
+.portfolioDiv a,
+.contactUs a{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.aboutDiv a{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.aboutDiv a:hover,
+.portfolioDiv a:hover,
+.contactUs a:hover{
+    color: rgb(0, 119, 255);
+}
+
+.firstPage{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstPage .text span{
+    color: rgb(88, 88, 161);
+}
+
+.firstPage .text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    width: 600px;
+    font-style: normal;
+    font-size: 35pt;
+}
+
+.block{
+    display:block;
+}
+
+.block a{
+    text-decoration: none;
+    color: black;
+}
+
+.block button{
+    width: 150px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    margin-top: 50px;
+    font-size: 12pt;
+    background-color: transparent;
+    border: 1px solid black;
+    transition-duration:1s;
+    cursor: pointer;
+}
+
+.block button:hover{
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}
+
+.firstPage .img2{
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.secondPage{
+    width: 100%;
+    height: 90vh;
+    margin-top: 60px;
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+}
+
+.secondPage .aboutText{
+    font-size: 40pt;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 50px;
+}
+
+.secondPage .text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 800px;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 16pt;
+    line-height: 35px;
+}
+
+.secondPage .text span{
+    color: rgb(0, 38, 255);
+}
+
+.secondPage .text2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 800px;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 16pt;
+    line-height: 35px;
+}
+
+.secondPage .getWebsite{
+    width: 200px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    margin-left: 60px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 25px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.secondPage{
+    display: flex;
+}
+
+.secondPage .getWebsite:hover{
+    color: white;
+    background-color: black;
+    border-color: transparent;
+}
+
+.img3{
+    width: 420px;
+    margin-left: 10px;
+    height: 230px;
+    height: 420px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.thirdPage{
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+}
+
+.thirdPage .experienceText{
+    font-size: 40pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-left: 50px;
+    font-style: normal;
+}
+
+.htmlText{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    cursor: pointer;
+    margin-left: 150px;
+    transition-duration: 2s;
+    margin-top: 50px;
+}
+
+.cssText{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    cursor: pointer;
+    margin-left: 150px;
+    transition-duration: 2s;
+    margin-top: 50px;
+}
+
+.img4,
+.img5,
+.img6,
+.img7{
+    width: 50px;
+    margin-left: 163px;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+.img7{
+    width: 30px;
+}
+
+.img5{
+    width: 35px;
+}
+
+.img6{
+    width: 25px;
+}
+
+.jstext{
+    margin-left: 158px;
+}
+
+.flex{
+    display: flex;
+}
+
+.showPopup1,
+.showPopup2,
+.showPopup3{
+    width: 300px;
+    background-color: rgb(231, 231, 231);
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: 14px 14px 15px -3px rgba(0,0,0,0.1);
+    height: 120px;
+    transition-duration: 1s;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thirdPage .textExperience{
+    font-size: 15pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    font-style: normal;
+}
+
+.thirdPage .howmuch{
+    font: 13pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    font-style: normal;
+}
+
+.selector{
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.reactjsText{
+    margin-left: 120px;
+}
+
+.seeMore{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 12pt;
+    margin-left: 60px;
+    margin-top: 50px;
+    border: 1px solid black;
+    transition-duration: 1s;
+}
+
+.seeMore:hover{
+    color: white;
+    background-color: black;
+    border-color: transparent;
+}
+
+.portfolioText{
+    font-size: 40pt;
+    font-family: "Poppins", sans-serif;
+    margin-left:50px;
+    margin-top: 100px;  
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ehcus,
+.ocean{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 500px;
+    box-shadow: 14px 14px 15px -3px rgba(0,0,0,0.1);
+}
+
+.fourthPage{
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+    width: 100%;
+    height: 85vh;
+}
+
+.ocean{
+    margin-left: 200px;
+}
+
+.ehcusText,
+.oceanText{
+    font-size: 13pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.oceanText{
+    margin-left: 200px;
+}
+
+.SeeMore1{
+    width: 150px;
+    background-color: white;
+    border: 1px solid black;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    margin-top: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.SeeMore1:hover{
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}
+
+.testimonialsText{
+    font-size: 40pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-style: normal;
+}
+
+.testimonialOne,
+.testimonialTwo{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 200px;
+    box-shadow: 38px 13px 15px 11px rgba(0,0,0,0.1);
+    background-color: rgb(204, 204, 204);
+}
+
+.name{
+    font-size: 12pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-left: 30px;
+    font-style: normal;
+}
+
+.fifthPage .text{
+    font-size: 14pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-top:40px;
+    margin-left: 30px;
+    font-style: normal;
+}
+
+.starDiv{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.stars{
+    color: rgb(81, 107, 255);
+}
+
+.fifthPage{
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+    width: 100%;
+    height: 70vh;
+}
+
+.contactText{
+    font-size: 40pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-left: 80px;
+    padding-top: 30px;
+    font-style: normal;
+}
+
+form .nameText,
+form .emailText,
+form .phoneNoText,
+form .messageText{
+    margin-left: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    font-style: normal;
+}
+
+form{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.sider3{
+    margin-left: 100px;
+}
+
+form .nameInput,
+form .emailInput,
+form .phoneInput,
+form .messageInput{
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    padding-left: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    resize: none;
+    font-style: normal;
+}
+
+form .send{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 120px;
+    margin-left: 80px;
+    background-color: white;
+    border: 1px solid black;
+    transition-duration: 1s;
+}
+
+form .send:hover{
+    background-color: black;
+    color: white;
+    border-color: transparent;
+}
+
+.lastPage{
+    height: 70vh;
+    width: 100%;
+}
+
+.tailwindcss{
+    margin-left: 80px;
+}
+
+.sql{
+    margin-left: 160px;
+}
+
+.Python{
+    margin-left: 130px;
+}
+
+.closedisplaynone{
+    display: none;
+}
+
+.nonedisplay{
+    display: none;
+}
+
+iframe{
+    background-color: white;
+}
+
+.barsDiNav{
+    margin-left: 100px;
+    display: none;
+}
+
+@media only screen and (max-width: 425px){
+    nav .aboutDiv,
+    nav .portfolioDiv,
+    nav .contactUs{
+        display: none;
+    }
+
+    nav{
+        height: 200px;
+    }
+
+    .img1{
+        width: 200px;
+    }
+
+    nav .enjoytext{
+        font-size: 45pt;
+    }
+
+    nav .barsDiNav{
+        display: flex;
+    }
+
+    .barsFavicon{
+        font-size: 35pt;
+        margin-left: 300px;
+    }
+
+    .firstPage{
+        padding-top: 300px;
+        height: 150vh;
+    }
+
+    .img2{
+        display: none;
+    }
+
+    .firstPage .block .text{
+        font-size: 45pt;
+    }
+
+    .firstPage .contactButton,
+    .secondPage .getWebsite{
+        width: 300px;
+        margin-top: 100px;
+        height: 80px;
+        font-size: 30pt;
+    }
+
+    .secondPage .getWebsite{
+        width: 450px;
+    }
+
+    .firstPage,
+    .secondPage,
+    .thirdPage{
+        width: 1278px;
+        overflow-x: hidden;
+    }
+
+    .thirdPage{
+        height: 150vh;
+    }
+
+    .secondPage{
+        height: 200vh;
+    }
+
+    .img3{
+        display: none;
+    }
+
+    .secondPage .aboutText,
+    .thirdPage .experienceText{
+        font-size: 55pt;
+    }
+
+    .secondPage .text,
+    .secondPage .text2{
+        font-size: 40pt;
+        margin-top: 50px;
+        width: 1200px;
+        line-height: 80px;
+    }
+
+    .secondPage .text2{
+        font-size: 35pt;
+    }
+
+    .closedisplaynone{
+        margin-top: 00px;
+        display: flex;
+    }
+
+    .thirdPage{
+        height: 170vh;
+    }
+
+    .therikaljf{
+        display: none;
+    }
+
+    .fifthPage{
+        display: none;
+    }
+
+}
